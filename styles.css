@@ -1,0 +1,11 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Inter, system-ui, sans-serif;
+  background: linear-gradient(180deg, #eaf2ff 0%, #f8fbff 100%);
+  color: #102a43;
+  min-height: 100vh;
+}
