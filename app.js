@@ -60,3 +60,5 @@ btnClima.addEventListener('click', () => {
       contenidoResultado.innerHTML = '<p>Vuelva a intentarlo más tarde.</p>';
     });
 });
+
+// Nota para Dario: particularmente prefiero realizar los fetch de manera separada, consultar primero la geocodificación y luego el clima, para poder manejar mejor los errores y mostrar mensajes más claros al usuario.

@@ -115,3 +115,29 @@ body {
 }
 
 
+@media (min-width: 640px) {
+  .form-group {
+    grid-template-columns: 1fr auto;
+    align-items: end;
+  }
+
+  .form-group label {
+    grid-column: 1 / -1;
+  }
+}
+
+@media (max-width: 520px) {
+  .app-shell {
+    padding: 18px;
+  }
+
+  .hero-card,
+  .result-card {
+    padding: 20px;
+  }
+
+  .form-group button,
+  .form-group input {
+    width: 100%;
+  }
+}
