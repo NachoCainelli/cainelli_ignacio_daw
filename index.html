@@ -7,7 +7,25 @@
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
+    <main class="app-shell">
+      <section class="hero-card">
+        <h1>Clima actual por ciudad</h1>
+        <p>Busca una ciudad y consulta su clima actual.</p>
+        <div class="form-group">
+          <label for="ciudad">Ciudad</label>
+          <input type="text" id="ciudad" placeholder="Ej. San Jeronimo" />
+          <button id="btnClima" type="button">Consultar clima</button>
+        </div>
+        <div id="estado" class="status" aria-live="polite"></div>
+      </section>
 
+      <section class="result-card" id="resultado" aria-live="polite">
+        <h2>Resultado</h2>
+        <div class="result-content" id="contenidoResultado">
+          <p>Ingresa una ciudad y pulsa Consultar clima.</p>
+        </div>
+      </section>
+    </main>
     <script src="app.js"></script>
   </body>
 </html>
